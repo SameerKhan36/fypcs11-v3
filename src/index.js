@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 // import App from './App';
 import SignIn from "./components/SignIn/SignIn"
 import SignUp from "./components/SignUp/SignUp"
+import Dashboard from "./components/Dashboard/Dashboard"
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/signup",
     element: <SignUp/>,
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard/>,
   },
 ]);
 
