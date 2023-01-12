@@ -12,8 +12,7 @@ const SignIn = () => {
             type: "GET",
             url: "http://localhost:4000/api/login",
             crossDomain: true,
-            success: function (res) {
-                
+            success: function (res) {                
                 let userNameInputValue = document.querySelector("#username").value
                 let passWordInputValue = document.querySelector("#password").value
                 let userDetail = JSON.parse(localStorage.getItem("userDetail"));

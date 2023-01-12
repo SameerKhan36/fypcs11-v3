@@ -4,25 +4,23 @@ import img1 from "../../assets/notification.png";
 
 const Dashboard = () => {
     const openNav = () => {
-        // if (
-        //     document.getElementById("mySidebar") &&
-        //     document.getElementById("main-cont")
-        //   )
-        //   {
-        // document.getElementById('mySidebar').style.width = '250px';
-        // document.getElementById('main-cont').style.marginLeft = '249px';
-        // }
-        console.log(document.getElementById("mySidebar"));
+        if (
+            document.getElementById("mySidebar") &&
+            document.getElementById("main-cont")
+          )
+          {
+        document.getElementById('mySidebar').style.width = '250px';
+        document.getElementById('main-cont').style.marginLeft = '249px';
+        }
     }
     const closeNav = () => {
-        // if (
-        //     document.getElementById("mySidebar") &&
-        //     document.getElementById("main-cont")
-        //   ) {
-        // document.getElementById('mySidebar').style.width = '0px';
-        // document.getElementById('main-cont').style.marginLeft = '0px';
-        // }
-        console.log("closeNav")
+        if (
+            document.getElementById("mySidebar") &&
+            document.getElementById("main-cont")
+          ) {
+        document.getElementById('mySidebar').style.width = '0px';
+        document.getElementById('main-cont').style.marginLeft = '0px';
+        }
     }
   return (
     <div><div id="mySidebar" className={DashboardCSS.sidebar}>
