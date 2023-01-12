@@ -58,11 +58,11 @@ const SignIn = () => {
                     <img src={img2} alt="" />
                 </div>
                 <div className={classes["login-btn"]}>
-                    <input type="button" name="" value="Login" onClick={login()}/>
+                    <input type="button" name="" value="Login" onClick={e => login(e)}/>
                 </div>
                 <div className={classes["back-to-signup"]}>
-                <a href="../index.html">Back to Main</a>
-                <a href="../SignUp/signup.html">Create an Account</a>
+                <a href="/">Back to Main</a>
+                <a href="../signup">Create an Account</a>
                 </div>
             </form>
         </div>

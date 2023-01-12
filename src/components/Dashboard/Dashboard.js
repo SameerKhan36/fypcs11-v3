@@ -54,7 +54,7 @@ const Dashboard = () => {
         <div className={DashboardCSS["add-btn-and-icn"]}>
             <img src={img1} alt="" />
             <button>+ Add Data</button>
-            <a href="../index.html">Logout</a>
+            <a href="../login">Logout</a>
         </div>
     </div>
 </div></div>
