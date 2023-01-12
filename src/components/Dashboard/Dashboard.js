@@ -25,7 +25,7 @@ const Dashboard = () => {
   return (
     <div><div id="mySidebar" className={DashboardCSS.sidebar}>
     <span>ELASTIC STACK</span>
-    <a href="#" className={DashboardCSS.closebtn} onClick={closeNav()}>x</a>
+    <a href="#" className={DashboardCSS.closebtn} onClick={close => closeNav(close)}>x</a>
     <div className={DashboardCSS.links}>
         <ul>
             <li>
@@ -47,7 +47,7 @@ const Dashboard = () => {
     <div className={DashboardCSS.header}>
         <div className={DashboardCSS["search-box"]}>
             <div id="main" className={DashboardCSS.burger}>
-                <span className={DashboardCSS.openBtn} onClick={openNav()}>☰</span>
+                <span className={DashboardCSS.openBtn} onClick={open => openNav(open)}>☰</span>
             </div>
             <input type="text" placeholder="   search..." />
         </div>
@@ -60,6 +60,5 @@ const Dashboard = () => {
 </div></div>
   )
 }
-
 
 export default Dashboard
