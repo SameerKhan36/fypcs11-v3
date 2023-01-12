@@ -25,7 +25,7 @@ const Dashboard = () => {
   return (
     <div><div id="mySidebar" className={DashboardCSS.sidebar}>
     <span>ELASTIC STACK</span>
-    <a href="#" className={DashboardCSS.closebtn} onClick={close => closeNav(close)}>x</a>
+    <a href="#" className={DashboardCSS.closebtn} onClick={close => closeNav(close)}>X</a>
     <div className={DashboardCSS.links}>
         <ul>
             <li>

@@ -88,9 +88,9 @@
     .sidebar .closebtn {
         position: absolute;
         top: 11px;
-        right: -5px;
-        font-size: 17px;
-        margin-left: 50px;
+        /* right: 200px; */
+        font-size: 18px;
+        margin-left: 200px;
         font-family: monospace;
         background-color: transparent;
     }
